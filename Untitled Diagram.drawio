@@ -34,8 +34,23 @@
         <mxCell id="KrwUJMKyWYbQcD5nX2oG-18" value="/addSOng&lt;div&gt;- songName&lt;/div&gt;&lt;div&gt;- artistName&lt;/div&gt;&lt;div&gt;- genre&lt;/div&gt;&lt;div&gt;- album&lt;/div&gt;&lt;div&gt;- metadata&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-80" y="500" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="KrwUJMKyWYbQcD5nX2oG-21" value="&lt;u&gt;Song&lt;/u&gt;&lt;div&gt;- song_id&amp;nbsp;&lt;/div&gt;&lt;div&gt;- songName&lt;/div&gt;&lt;div&gt;- [artist]&lt;/div&gt;&lt;div&gt;- albumName&lt;/div&gt;&lt;div&gt;- genre&lt;/div&gt;&lt;div&gt;- releaseDate&lt;/div&gt;&lt;div&gt;- isRemix&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="163" width="100" height="140" as="geometry" />
+        <mxCell id="KrwUJMKyWYbQcD5nX2oG-21" value="&lt;u&gt;Song&lt;/u&gt;&lt;div&gt;- song_id&amp;nbsp;&lt;/div&gt;&lt;div&gt;- songName&lt;/div&gt;&lt;div&gt;- [artist]&lt;/div&gt;&lt;div&gt;- albumName&lt;/div&gt;&lt;div&gt;- genre&lt;/div&gt;&lt;div&gt;- releaseDate&lt;/div&gt;&lt;div&gt;- isRemix : song_id&lt;/div&gt;&lt;div&gt;- language&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="163" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KrwUJMKyWYbQcD5nX2oG-22" value="&lt;u&gt;Singer&lt;/u&gt;&lt;div&gt;- artist_id&lt;/div&gt;&lt;div&gt;- artistName&lt;/div&gt;&lt;div&gt;- songs - [songs_id]&lt;/div&gt;&lt;div&gt;- language&lt;/div&gt;&lt;div&gt;- label&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="170" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KrwUJMKyWYbQcD5nX2oG-23" value="&lt;u&gt;User&lt;/u&gt;&lt;div&gt;- user_id&lt;/div&gt;&lt;div&gt;- userName&lt;/div&gt;&lt;div&gt;- favs Songs - [song_ids]&lt;/div&gt;&lt;div&gt;- playlists - array playlist&lt;/div&gt;&lt;div&gt;- fav artists -&amp;nbsp;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="170" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KrwUJMKyWYbQcD5nX2oG-24" value="&lt;u&gt;Playlist&lt;/u&gt;&lt;div&gt;- who created&lt;/div&gt;&lt;div&gt;- created&lt;/div&gt;&lt;div&gt;-song&amp;nbsp;&lt;/div&gt;&lt;div&gt;- isPrivate&amp;nbsp;&lt;/div&gt;&lt;div&gt;- url&amp;nbsp;&lt;/div&gt;&lt;div&gt;- users&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="158" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KrwUJMKyWYbQcD5nX2oG-25" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KrwUJMKyWYbQcD5nX2oG-26" value="Authentication&amp;nbsp;&lt;div&gt;- passwords&lt;/div&gt;&lt;div&gt;- passkeys&lt;/div&gt;&lt;div&gt;- 2fa&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="328" width="100" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
