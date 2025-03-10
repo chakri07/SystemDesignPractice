@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="kxJl0_MOcjqdHjIVECrp">
-    <mxGraphModel>
+    <mxGraphModel dx="1854" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1UQz_bt7iV97tCaEum5L-1" value="Live Commenting System&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="13" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-3" value="&lt;u&gt;- Functional Requirements&lt;/u&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- users should be able to post new comtns&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Users should be able to see new comments without&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;refreshing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- Lets store the comments&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- should be able to handle a lot of users&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Think about moderration and users should report moderation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- remove the un needed comments&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="35" width="350" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-5" value="&lt;u&gt;Non Functional Requirments&lt;/u&gt;&lt;div&gt;- Comments should show up instantantly&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Reliable&amp;nbsp;&lt;/div&gt;&lt;div&gt;- scalable&lt;/div&gt;&lt;div&gt;- Fault Tolerant&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="180" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-7" value="no of live streams = 100,000&amp;nbsp;&lt;div&gt;1M active users&lt;/div&gt;&lt;div&gt;100k comments for 1 seconds&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="275" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-8" value="each comment = 100 Bytes&amp;nbsp; * 1000 * 100 = 0.1kb * 1000&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;=&amp;nbsp; 100 * 100&amp;nbsp; kb per second&amp;nbsp; = 10 Mb/sec&lt;/div&gt;&lt;div&gt;10 mb * 10^5 = 1gig * 1000&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 TB data per day&amp;nbsp; - 400 TB&amp;nbsp;&lt;/div&gt;&lt;div&gt;- For 5 years it was 2 PB&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="380" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-9" value="100k TPS we are getting&amp;nbsp;&lt;div&gt;1 TB per day&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-10" value="API&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="583" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-11" value="/send_comment&lt;div&gt;- User_id&lt;/div&gt;&lt;div&gt;- live stream_id&lt;/div&gt;&lt;div&gt;- actual comment&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="623" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-12" value="/get_comment&lt;div&gt;- return the array latest 100 comments&amp;nbsp;&lt;/div&gt;&lt;div&gt;- livestream_id&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="628" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-13" value="/report_comment&lt;div&gt;- user_id&lt;/div&gt;&lt;div&gt;- livestream_id&lt;/div&gt;&lt;div&gt;- comment_id&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="713" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-14" value="/reviwed&amp;nbsp;&lt;div&gt;- comment&lt;/div&gt;&lt;div&gt;return True&lt;/div&gt;&lt;div&gt;False&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="713" width="80" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
