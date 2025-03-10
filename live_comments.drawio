@@ -37,6 +37,27 @@
         <mxCell id="1UQz_bt7iV97tCaEum5L-14" value="/reviwed&amp;nbsp;&lt;div&gt;- comment&lt;/div&gt;&lt;div&gt;return True&lt;/div&gt;&lt;div&gt;False&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="115" y="713" width="80" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-15" value="No Sql" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="38" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-16" value="Comment&lt;div&gt;- comment_id : string&lt;/div&gt;&lt;div&gt;- user_id : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- reported : number&amp;nbsp;&lt;/div&gt;&lt;div&gt;- reviewed : boolean&amp;nbsp;&lt;/div&gt;&lt;div&gt;- livestream_id : string&amp;nbsp;&lt;/div&gt;&lt;div&gt;- text: string&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="75" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-17" value="LiveStream&lt;div&gt;- livestream_id : string&lt;/div&gt;&lt;div&gt;- watching_users : users&lt;/div&gt;&lt;div&gt;- title : string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-18" value="User&lt;div&gt;- user_id&lt;/div&gt;&lt;div&gt;- user_name&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="802" as="sourcePoint" />
+            <mxPoint x="360" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1UQz_bt7iV97tCaEum5L-20" value="DataModel&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="3" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
